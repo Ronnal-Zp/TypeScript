@@ -88,3 +88,16 @@ let myResult: testResult;
 myResult = "incomplete";    //* Valid
 myResult = "pass";          //* Valid
 // myResult = "failure";       //* Invalid
+
+
+
+
+// Tipo Array
+let list: number[] = [1, 2, 3];
+let list2: Array<number> = [1, 2, 3];
+
+
+// Tuplas
+// solo contienen exactamente el numero de elemento definido en la tupla
+let person1: [string, number] = ['Marcia', 35];
+// let person2: [string, number] = [35, 'Marcia']; // Error: no puede cambiar de lugar
